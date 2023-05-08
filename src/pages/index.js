@@ -13,30 +13,33 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className={styles.main}>
-        <div>
+      <header className={styles.center}>
+        <logo className={styles.logo}>
           <img src="https://cdn.raatbodrum.com/logo/logo.png" width="160" height="160" draggable="false" />
-        </div>
+        </logo>
       </header>
+      <div className={styles.center}>
+        <img src="https://cdn.raatbodrum.com/separator/separator.png" width="340" draggable="false" class="sc-gsTEea jQLxmr" />
+      </div>
       <main className={styles.main}>
         <div>
           <a href='/beer'>
-            <img src="https://cdn.raatbodrum.com/buttons/beer.png" width="100" draggable="false"/>
+            <img src="https://cdn.raatbodrum.com/buttons/beer.png" width="100" draggable="false" />
           </a>
           <a href='/whiskey'>
-            <img src="https://cdn.raatbodrum.com/buttons/whiskey.png" width="100" draggable="false"/>
+            <img src="https://cdn.raatbodrum.com/buttons/whiskey.png" width="100" draggable="false" />
           </a>
           <a href='/wine'>
-            <img src="https://cdn.raatbodrum.com/buttons/wine.png" width="100" draggable="false"/>
+            <img src="https://cdn.raatbodrum.com/buttons/wine.png" width="100" draggable="false" />
           </a>
           <a href='/cocktails'>
-            <img src="https://cdn.raatbodrum.com/buttons/cocktails.png" width="100" draggable="false"/>
+            <img src="https://cdn.raatbodrum.com/buttons/cocktails.png" width="100" draggable="false" />
           </a>
           <a href='/coffee'>
-            <img src="https://cdn.raatbodrum.com/buttons/coffee.png" width="100" draggable="false"/>
+            <img src="https://cdn.raatbodrum.com/buttons/coffee.png" width="100" draggable="false" />
           </a>
           <a href='/tea'>
-            <img src="https://cdn.raatbodrum.com/buttons/tea.png" width="100" draggable="false"/>
+            <img src="https://cdn.raatbodrum.com/buttons/tea.png" width="100" draggable="false" />
           </a>
         </div>
       </main>
